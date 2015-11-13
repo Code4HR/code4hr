@@ -130,6 +130,20 @@ table h3 {
 
 /* RESPONSIVE CSS
 -------------------------------------------------- */
+/* carousel item fix for small screens */
+@media (max-width: 320px) {
+  /* Carousel base class */
+  .carousel {
+    height: 700px;
+  }
+  .carousel .item {
+    height: 700px;
+  }
+  .carousel-inner > .item > img {
+    height: 700px;
+  }
+}
+
 
 @media (min-width: 768px) {
 
