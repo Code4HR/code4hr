@@ -58,7 +58,6 @@ table h3 {
 
 /* Carousel base class */
 .carousel {
-  height: 500px;
   background-image: url(../images/sunset.jpg);
   background-size: cover;
   background-position: center bottom;
@@ -70,10 +69,6 @@ table h3 {
   z-index: 10;
 }
 
-/* Declare heights because of positioning of img element */
-.carousel .item {
-  height: 500px;
-}
 .carousel-inner > .item > img {
   position: absolute;
   top: 0;
@@ -130,20 +125,6 @@ table h3 {
 
 /* RESPONSIVE CSS
 -------------------------------------------------- */
-/* carousel item fix for small screens */
-@media (max-width: 320px) {
-  /* Carousel base class */
-  .carousel {
-    height: 700px;
-  }
-  .carousel .item {
-    height: 700px;
-  }
-  .carousel-inner > .item > img {
-    height: 700px;
-  }
-}
-
 
 @media (min-width: 768px) {
 
@@ -268,6 +249,7 @@ table h3 {
 .jumbotron .btn {
   font-size: 21px;
   padding: 14px 24px;
+  margin-bottom: 10px;
 }
 
 /* Supporting marketing content */
