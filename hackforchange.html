@@ -34,6 +34,21 @@ is_front: true
     font-family: 'Contrail One', cursive;
     font-size: 44px !important;
   }
+  /* Portrait */
+  @media only screen
+    and (min-device-width: 320px)
+    and (max-device-width: 480px)
+    and (-webkit-min-device-pixel-ratio: 2)
+    and (orientation: portrait) {
+    body {
+      font-size: 38px !important;
+        margin-left:2% !important;
+        margin-right:2% !important;
+      }
+      h3 {
+        font-size: 48px !important;
+      }
+    }
 </style>
 <link href="http://netdna.bootstrapcdn.com/bootstrap/3.0.2/css/bootstrap.min.css" rel="stylesheet" />
 <link href="https://fonts.googleapis.com/css?family=Contrail+One|Roboto" rel="stylesheet">
@@ -199,7 +214,7 @@ is_front: true
         City of Virginia Beach is drafting a 10 Year Strategic Plan to End Homelessness (<a href="https://www.vbgov.com/government/departments/housing-neighborhood-preservation/Documents/20170708-HNP-HS-StrategicPlan-ActionPlan-Draft.pdf">DRAFT</a>). City of Norfolk is also developing a long term strategic plan for affordable housing redevelopment. We’re looking for digital services professionals who want to help our cities deliver great digital services that support housing resources, especially digital services for the disconnected and for community engagement and public communications.
       </p>
       <p>
-        This is a discovery session.
+        This is a <em>discovery</em> session.
       </p>
     </div>
     <div class="col-xs-12 col-sm-12 col-md-5 col-lg-5">
