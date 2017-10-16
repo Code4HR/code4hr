@@ -7,8 +7,9 @@ categories: news
 
 ## Code4HR Makes Headlines
 
-### Below is a list of mentions of our local code bridage: 
+### Below is a list of mentions of our local code bridage:
 
+- <a href="https://pilotonline.com/opinion/editorial/virginian-pilot-editorial-helping-voters-find-their-perfect-match/article_0ac846b6-31ce-51c9-afd9-690c18e00398.html">Virginian-Pilot Editorial: Helping voters find their perfect match</a>
 - <a href="http://www.virginiamemory.com/blogs/out_of_the_box/tag/code-for-hampton-roads/">Hampton Roads group features Kaine e-mails in open government “HACK-A-THON”</a>
 - <a href="http://www.dailypress.com/business/dp-nws-evg-open-data-20141227-story.html">Data -- including open government data -- could fuel innovation in Hampton Roads </a>
 - <a href="https://usopendata.org/2014/07/29/food-data/">Restaurant Inspection Data</a>
